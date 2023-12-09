@@ -673,11 +673,6 @@ a {
 
 /* Add this at the end of your CSS */
 
-/* Adjust main container margins for better spacing */
-.wrap {
-  margin: 0 10px; /* Adds left and right margin */
-}
-
 /* Adjust image size for mobile */
 @media (max-width: 600px) {
   img {
