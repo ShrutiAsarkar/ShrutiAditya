@@ -670,3 +670,76 @@ a {
     font-weight: bold;
     color: #FF5252;
 }
+
+/* Add this at the end of your CSS */
+
+/* Adjust image size for mobile */
+@media (max-width: 600px) {
+  img {
+    max-width: 100%;
+  }
+}
+
+/* Adjust title font sizes for mobile */
+@media (max-width: 600px) {
+  .title h1 {
+    font-size: 40px;
+  }
+
+  .title h2 {
+    font-size: 18px;
+  }
+
+  .title h3 {
+    font-size: 18px;
+  }
+
+  .title p {
+    font-size: 14px;
+  }
+}
+
+/* Adjust margins for responsiveness */
+@media (max-width: 600px) {
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .dance-med {
+    font-size: 24px;
+    margin: 12px;
+  }
+
+  .happiness {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .footer {
+    font-size: 14px;
+    margin: 12px;
+  }
+
+  .actions {
+    font-size: 10px;
+    letter-spacing: 0;
+  }
+
+  .banner {
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .banner__date {
+    font-size: 32px;
+  }
+
+  #countdown {
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  #countdown span {
+    font-size: 32px;
+  }
+}
