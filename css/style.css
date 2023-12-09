@@ -674,14 +674,14 @@ a {
 /* Add this at the end of your CSS */
 
 /* Adjust image size for mobile */
-@media (max-width: 600px) {
+@media (max-width: 100%) {
   img {
     max-width: 100%;
   }
 }
 
 /* Adjust title font sizes for mobile */
-@media (max-width: 600px) {
+@media (max-width: 100%) {
   .title h1 {
     font-size: 40px;
   }
@@ -700,7 +700,7 @@ a {
 }
 
 /* Adjust margins for responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 100%) {
   .title {
     margin-bottom: 20px;
   }
