@@ -438,7 +438,7 @@ img {
 	justify-content: center;
 	-webkit-align-items: center;
 	align-items: center;
-	/* padding: 20px; */
+	padding: 20px;
 	text-align: center;
 	/* min-height:100%; */
 }
@@ -533,12 +533,6 @@ body {
 	font-weight: 900;
 }
 
-.footer {
-	color: #564861;
-	text-align: center;
-	font-size: 16px;
-	margin: 24px;
-}
 
 .phone {
 	color: #874562
@@ -587,16 +581,6 @@ a {
 	width: 50%;
   }
 
-.footer {
-	background-color: #f8f9fa; /* Change the background color as needed */
-	padding: 20px 0;
-	text-align: center;
-}
-
-.footer-text {
-	font-weight: bold;
-	margin: 8px 0;
-}
 
 .tile__img {
     max-width: 65%;
@@ -715,10 +699,7 @@ a {
     margin-bottom: 16px;
   }
 
-  .footer {
-    font-size: 14px;
-    margin: 12px;
-  }
+
 
   .actions {
     font-size: 10px;
@@ -743,3 +724,17 @@ a {
     font-size: 32px;
   }
 }
+
+.footer {
+	background-color: #f8f9fa;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 16px;
+	color: #564861;
+  }
+  
+  .footer-text {
+	font-weight: bold;
+	margin: 8px 0;
+  }
+  
